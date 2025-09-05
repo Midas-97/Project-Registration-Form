@@ -95,7 +95,7 @@ input {
     margin-top: 0.25rem;
   }
 
-  &:valid + .error {
+  &:not(:focus):valid + .error {
     display: none;
   }
 }
