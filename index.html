@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estrelas do Amanhâ</title>
+    <title>Stars of Tomorrow</title>
 
     <link rel="stylesheet" href="styles/index.css" />
 
@@ -21,20 +21,19 @@
         <div class="main-container">
           <div class="back">
             <img src="assets/icones/arrow-left-02.png" alt="icone de voltar" />
-            <span>Voltar</span>
+            <span>To go back</span>
           </div>
-          <h1>Formulário de matrícula</h1>
+          <h1>Registration form</h1>
           <p>
-            Preencha os dados abaixo para matricular seu filho na escola de
-            educação infantil Estrelas do Amanhã.
+            Fill out the information below to enroll your child in the Estrelas do Amanhã early childhood education school.
           </p>
 
           <form method="post" enctype="multipart/form-data">
             <fieldset class="child-info">
-              <legend>Informações da Criança</legend>
+              <legend>Child Information</legend>
 
               <div class="input-weapper">
-                <label for="fullname">Nome completo</label>
+                <label for="fullname">Full name</label>
                 <input
                   id="fullname"
                   name="fullname"
@@ -44,32 +43,32 @@
               </div>
 
               <div class="input-wrapper">
-                <label for="birth">Data de nascimento</label>
+                <label for="birth">Date of birth</label>
                 <input type="date" id="birth" name="birth" lang="pt-BR" />
               </div>
 
               <div class="select-wrapper">
-                <label for="gender">Sexo</label>
+                <label for="gender">Sex</label>
                 <select name="gender" id="gender">
-                  <option value="female">Feminino</option>
-                  <option value="male">Masculino</option>
-                  <option value="na">Prefiro não responder</option>
+                  <option value="female">Feminine</option>
+                  <option value="male">Masculine</option>
+                  <option value="na">I prefer not to answer</option>
                 </select>
               </div>
 
               <div class="textarea-wrapper">
-                <label for="medical-info">Informações médicas</label>
+                <label for="medical-info">Medical information</label>
                 <textarea
                   name="medical-info"
                   id="medical-info"
                   cols="30"
                   rows="5"
-                  placeholder="Alguma informação médica que devemos saber?"
+                  placeholder="Any medical information we should know?"
                 ></textarea>
               </div>
 
               <div class="droparea-wrapper">
-                <label for="birth-file">Certidão de Nascimento</label>
+                <label for="birth-file">Birth certificate</label>
 
                 <div class="dropzone">
                   <input type="file" id="birth-file" name="birth-file" />
@@ -96,13 +95,13 @@
                     />
                   </svg>
 
-                  <p>clique aqui para<br />selecionar o arquivos</p>
+                  <p>click here to<br />select the files</p>
                 </div>
               </div>
             </fieldset>
 
             <fieldset class="address">
-              <legend>Endereço residencial</legend>
+              <legend>Home address</legend>
 
               <div class="input-wrapper">
                 <label for="cep">CEP</label>
@@ -111,7 +110,7 @@
 
               <div class="flex">
                 <div class="input-wrapper flex-2">
-                  <label for="street">Rua</label>
+                  <label for="street">Road</label>
                   <input
                     type="text"
                     id="street"
@@ -122,14 +121,14 @@
                 </div>
 
                 <div class="input-wrapper flex-1">
-                  <label for="number">Número</label>
+                  <label for="number">Number</label>
                   <input type="number" id="number" name="number" />
                 </div>
               </div>
 
               <div class="flex">
                 <div class="input-wrapper flex-2">
-                  <label for="city">Cidade</label>
+                  <label for="city">City</label>
                   <input
                     type="text"
                     id="city"
@@ -140,7 +139,7 @@
                 </div>
 
                 <div class="input-wrapper flex-1">
-                  <label for="state">Estado</label>
+                  <label for="state">State</label>
                   <input
                     type="text"
                     id="state"
@@ -153,18 +152,18 @@
             </fieldset>
 
             <fieldset class="gardian">
-              <legend>Informações do responsável</legend>
+              <legend>Responsible person's information</legend>
 
               <div class="input-wrapper">
-                <label for="gardian">Nome do responsável</label>
+                <label for="gardian">Name of person in charge</label>
                 <input type="text" id="gardian" name="gardian" />
                 <small
-                  >Principal responsável legal e contato de emergência</small
+                  >Main legal guardian and emergency contact</small
                 >
               </div>
 
               <div class="input-wrapper">
-                <label for="phone">Telefone</label>
+                <label for="phone">Phone</label>
                 <input
                   type="text"
                   id="phone"
@@ -181,15 +180,15 @@
                     src="assets/icones/alert-circle.png"
                     alt="ícone de alerta vermelho"
                   />
-                  <span>Insira um e-mail válido</span>
+                  <span>Enter a valid email address</span>
                 </div>
               </div>
             </fieldset>
 
             <fieldset class="enroll-options">
-              <legend>Opções de matrícula</legend>
+              <legend>Enrollment options</legend>
               <div class="input-wrapper">
-                <label>Selecione o turno de estudo</label>
+                <label>Select the study shift</label>
 
                 <div class="radio-wrapper">
                   <div class="radio-inner">
@@ -204,7 +203,7 @@
                       src="assets/icones/sun-cloud-02.png"
                       alt="ícone de sol com nuvem"
                     />
-                    <label for="morning">Manhã</label>
+                    <label for="morning">Morning</label>
                   </div>
 
                   <div class="radio-inner">
@@ -216,14 +215,14 @@
                       id="evening"
                     />
                     <img src="assets/icones/sun-02.png" alt="ícone de sol" />
-                    <label for="evening">Tarde</label>
+                    <label for="evening">Ecening</label>
                   </div>
                 </div>
               </div>
 
               <div class="input-wrapper">
                 <label
-                  >Em qual esporte você gostaria de inscrever seu filho?</label
+                  >What sport would you like to enroll your child in?</label
                 >
 
                 <div class="radio-wrapper">
@@ -234,7 +233,7 @@
                       src="assets/icones/football.png"
                       alt="icone de futebol"
                     />
-                    <label for="football">Futebol</label>
+                    <label for="football">Soccer</label>
                   </div>
 
                   <div class="radio-inner">
@@ -244,7 +243,7 @@
                       src="assets/icones/basketball-02.png"
                       alt="icone de basketball"
                     />
-                    <label for="basketball">Basquete</label>
+                    <label for="basketball">Basketball</label>
                   </div>
 
                   <div class="radio-inner">
@@ -254,7 +253,7 @@
                       src="assets/icones/swimming.png"
                       alt="icone de swimming"
                     />
-                    <label for="swimming">Natação</label>
+                    <label for="swimming">Swimming</label>
                   </div>
 
                   <div class="radio-inner">
@@ -281,7 +280,7 @@
                       src="assets/icones/boxing-glove-01.png"
                       alt="icone de yoga"
                     />
-                    <label for="boxing">Boxe</label>
+                    <label for="boxing">Boxing</label>
                   </div>
                 </div>
               </div>
@@ -292,18 +291,18 @@
               <input type="checkbox" name="terms" id="terms" />
 
               <label for="terms">
-                Declaro que li e concordo com os
-                <strong>Termos e Condições</strong> e com a
-                <strong>Política de Privacidade</strong> da escola Estrela do
-                Amanhã.
+                I declare that I have read and agree with the
+                <strong>Terms and Conditions</strong> and with the
+                <strong>Privacy Policy</strong> from the Estrela do
+Tomorrow school.
               </label>
             </div>
 
             <div class="action-wrapper">
               <button class="btn-secondary" type="button">
-                Salvar Resposta
+                Save Answer
               </button>
-              <button class="btn-primary" type="submit">Fazer matricula</button>
+              <button class="btn-primary" type="submit">Enroll</button>
             </div>
           </form>
         </div>
@@ -313,10 +312,10 @@
         <div class="aside-container">
           <header>
             <img src="assets/logo.svg" alt="logo estrela do amanha" />
-            <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+            <h2>Because every moment of <span>apprenticeship</span> account</h2>
             <p>
-              Inscreva seu filho em nossa escola e veja-o florescer em um
-              ambiente acolhedor, seguro e estimulante.
+              Enroll your child in our school and watch them flourish in a
+welcoming, safe, and stimulating environment.
             </p>
           </header>
           <img
